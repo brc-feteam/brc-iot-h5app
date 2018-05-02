@@ -1,0 +1,26 @@
+{
+  "name": "brc-iot-h5app",
+  "version": "0.0.1",
+  "description": "brc-iot-h5app",
+  "main": "app.js",
+  "scripts": {
+    "pack": "bone build",
+    "start": "bone start"
+  },
+  "dependencies": {
+    "@bone/bone-web-ui": "^1.0.0",
+    "@bone/bone-web-ui-dpl": "^1.0.0",
+    "@bone/web": "^0.1.0",
+    "antd-mobile": "^2.1.8",
+    "axios": "^0.18.0",
+    "moment": "^2.22.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "bnpm": {
+    "mode": "yarn"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0"
+  }
+}
